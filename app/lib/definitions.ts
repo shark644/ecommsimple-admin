@@ -86,3 +86,8 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type InvoicesTotal = {
+  paid: BigInt;
+  pending: BigInt;
+}
